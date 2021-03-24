@@ -1,0 +1,37 @@
+.projectDetails {
+    display: grid;
+    grid-template-columns: .30fr .30fr .30fr;
+    grid-template-rows: 50px 100px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.top {
+    background-color:lightskyblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-top: 8px;
+    /* padding-bottom: 5px; */
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .middle {
+    background-color:lightgrey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-top: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .bottom {
+    background-color:lightsalmon;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .myList {
+      color: maroon;
+      font-family: Arial, Helvetica, sans-serif;
+  }
